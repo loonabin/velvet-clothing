@@ -1,0 +1,155 @@
+/* Reset and basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #40abc3;
+}
+
+header p {
+    font-size: 1.5em;
+    color: #aa54e4;
+}
+
+/* Hero section styles */
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(128, 182, 239, 0.861);
+    border-radius: 10px;
+}
+
+.hero-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-text h2 {
+    font-size: 2.5em;
+    color: #855fd0;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    color: #f9a2a2;
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Featured products section styles */
+#featured {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#featured h2 {
+    font-size: 2.5em;
+    color: #90a4deea;
+    margin-bottom: 40px;
+}
+
+.product {
+    display: inline-block;
+    width: 30%;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgb(175, 122, 208);
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    font-size: 1.5em;
+    color: #10c0e3;
+    margin-bottom: 10px;
+}
+
+.product .price {
+    font-size: 1.2em;
+    color: #3ec2cb;
+    margin-bottom: 20px;
+}
+
+.buy-btn {
+    background-color: #fffdfd;
+    color: #629ddb;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 1em;
+}
+
+footer p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+li {
+    display: inline; /* Changed float to inline for list items */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+      background-color: #111;
+}
